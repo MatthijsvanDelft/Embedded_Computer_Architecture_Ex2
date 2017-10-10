@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition"
 
--- DATE "10/10/2017 10:20:12"
+-- DATE "10/10/2017 10:43:15"
 
 -- 
 -- Device: Altera 5CSXFC6D6F31C8ES Package FBGA896
@@ -36,70 +36,70 @@ USE IEEE.STD_LOGIC_1164.ALL;
 
 ENTITY 	ECA1_Assignment1 IS
     PORT (
-	\out_matrix[1][1][0]\ : OUT std_logic;
-	\out_matrix[1][1][1]\ : OUT std_logic;
-	\out_matrix[1][1][2]\ : OUT std_logic;
-	\out_matrix[1][1][3]\ : OUT std_logic;
-	\out_matrix[1][1][4]\ : OUT std_logic;
-	\out_matrix[1][1][5]\ : OUT std_logic;
-	\out_matrix[1][1][6]\ : OUT std_logic;
-	\out_matrix[1][1][7]\ : OUT std_logic;
-	\out_matrix[1][1][8]\ : OUT std_logic;
-	\out_matrix[1][1][9]\ : OUT std_logic;
-	\out_matrix[1][1][10]\ : OUT std_logic;
-	\out_matrix[1][1][11]\ : OUT std_logic;
-	\out_matrix[1][1][12]\ : OUT std_logic;
-	\out_matrix[1][1][13]\ : OUT std_logic;
-	\out_matrix[1][1][14]\ : OUT std_logic;
-	\out_matrix[1][1][15]\ : OUT std_logic;
-	\out_matrix[1][0][0]\ : OUT std_logic;
-	\out_matrix[1][0][1]\ : OUT std_logic;
-	\out_matrix[1][0][2]\ : OUT std_logic;
-	\out_matrix[1][0][3]\ : OUT std_logic;
-	\out_matrix[1][0][4]\ : OUT std_logic;
-	\out_matrix[1][0][5]\ : OUT std_logic;
-	\out_matrix[1][0][6]\ : OUT std_logic;
-	\out_matrix[1][0][7]\ : OUT std_logic;
-	\out_matrix[1][0][8]\ : OUT std_logic;
-	\out_matrix[1][0][9]\ : OUT std_logic;
-	\out_matrix[1][0][10]\ : OUT std_logic;
-	\out_matrix[1][0][11]\ : OUT std_logic;
-	\out_matrix[1][0][12]\ : OUT std_logic;
-	\out_matrix[1][0][13]\ : OUT std_logic;
-	\out_matrix[1][0][14]\ : OUT std_logic;
-	\out_matrix[1][0][15]\ : OUT std_logic;
-	\out_matrix[0][1][0]\ : OUT std_logic;
-	\out_matrix[0][1][1]\ : OUT std_logic;
-	\out_matrix[0][1][2]\ : OUT std_logic;
-	\out_matrix[0][1][3]\ : OUT std_logic;
-	\out_matrix[0][1][4]\ : OUT std_logic;
-	\out_matrix[0][1][5]\ : OUT std_logic;
-	\out_matrix[0][1][6]\ : OUT std_logic;
-	\out_matrix[0][1][7]\ : OUT std_logic;
-	\out_matrix[0][1][8]\ : OUT std_logic;
-	\out_matrix[0][1][9]\ : OUT std_logic;
-	\out_matrix[0][1][10]\ : OUT std_logic;
-	\out_matrix[0][1][11]\ : OUT std_logic;
-	\out_matrix[0][1][12]\ : OUT std_logic;
-	\out_matrix[0][1][13]\ : OUT std_logic;
-	\out_matrix[0][1][14]\ : OUT std_logic;
-	\out_matrix[0][1][15]\ : OUT std_logic;
-	\out_matrix[0][0][0]\ : OUT std_logic;
-	\out_matrix[0][0][1]\ : OUT std_logic;
-	\out_matrix[0][0][2]\ : OUT std_logic;
-	\out_matrix[0][0][3]\ : OUT std_logic;
-	\out_matrix[0][0][4]\ : OUT std_logic;
-	\out_matrix[0][0][5]\ : OUT std_logic;
-	\out_matrix[0][0][6]\ : OUT std_logic;
-	\out_matrix[0][0][7]\ : OUT std_logic;
-	\out_matrix[0][0][8]\ : OUT std_logic;
-	\out_matrix[0][0][9]\ : OUT std_logic;
-	\out_matrix[0][0][10]\ : OUT std_logic;
-	\out_matrix[0][0][11]\ : OUT std_logic;
-	\out_matrix[0][0][12]\ : OUT std_logic;
-	\out_matrix[0][0][13]\ : OUT std_logic;
-	\out_matrix[0][0][14]\ : OUT std_logic;
-	\out_matrix[0][0][15]\ : OUT std_logic;
+	\out_matrix[1][1][0]\ : BUFFER std_logic;
+	\out_matrix[1][1][1]\ : BUFFER std_logic;
+	\out_matrix[1][1][2]\ : BUFFER std_logic;
+	\out_matrix[1][1][3]\ : BUFFER std_logic;
+	\out_matrix[1][1][4]\ : BUFFER std_logic;
+	\out_matrix[1][1][5]\ : BUFFER std_logic;
+	\out_matrix[1][1][6]\ : BUFFER std_logic;
+	\out_matrix[1][1][7]\ : BUFFER std_logic;
+	\out_matrix[1][1][8]\ : BUFFER std_logic;
+	\out_matrix[1][1][9]\ : BUFFER std_logic;
+	\out_matrix[1][1][10]\ : BUFFER std_logic;
+	\out_matrix[1][1][11]\ : BUFFER std_logic;
+	\out_matrix[1][1][12]\ : BUFFER std_logic;
+	\out_matrix[1][1][13]\ : BUFFER std_logic;
+	\out_matrix[1][1][14]\ : BUFFER std_logic;
+	\out_matrix[1][1][15]\ : BUFFER std_logic;
+	\out_matrix[1][0][0]\ : BUFFER std_logic;
+	\out_matrix[1][0][1]\ : BUFFER std_logic;
+	\out_matrix[1][0][2]\ : BUFFER std_logic;
+	\out_matrix[1][0][3]\ : BUFFER std_logic;
+	\out_matrix[1][0][4]\ : BUFFER std_logic;
+	\out_matrix[1][0][5]\ : BUFFER std_logic;
+	\out_matrix[1][0][6]\ : BUFFER std_logic;
+	\out_matrix[1][0][7]\ : BUFFER std_logic;
+	\out_matrix[1][0][8]\ : BUFFER std_logic;
+	\out_matrix[1][0][9]\ : BUFFER std_logic;
+	\out_matrix[1][0][10]\ : BUFFER std_logic;
+	\out_matrix[1][0][11]\ : BUFFER std_logic;
+	\out_matrix[1][0][12]\ : BUFFER std_logic;
+	\out_matrix[1][0][13]\ : BUFFER std_logic;
+	\out_matrix[1][0][14]\ : BUFFER std_logic;
+	\out_matrix[1][0][15]\ : BUFFER std_logic;
+	\out_matrix[0][1][0]\ : BUFFER std_logic;
+	\out_matrix[0][1][1]\ : BUFFER std_logic;
+	\out_matrix[0][1][2]\ : BUFFER std_logic;
+	\out_matrix[0][1][3]\ : BUFFER std_logic;
+	\out_matrix[0][1][4]\ : BUFFER std_logic;
+	\out_matrix[0][1][5]\ : BUFFER std_logic;
+	\out_matrix[0][1][6]\ : BUFFER std_logic;
+	\out_matrix[0][1][7]\ : BUFFER std_logic;
+	\out_matrix[0][1][8]\ : BUFFER std_logic;
+	\out_matrix[0][1][9]\ : BUFFER std_logic;
+	\out_matrix[0][1][10]\ : BUFFER std_logic;
+	\out_matrix[0][1][11]\ : BUFFER std_logic;
+	\out_matrix[0][1][12]\ : BUFFER std_logic;
+	\out_matrix[0][1][13]\ : BUFFER std_logic;
+	\out_matrix[0][1][14]\ : BUFFER std_logic;
+	\out_matrix[0][1][15]\ : BUFFER std_logic;
+	\out_matrix[0][0][0]\ : BUFFER std_logic;
+	\out_matrix[0][0][1]\ : BUFFER std_logic;
+	\out_matrix[0][0][2]\ : BUFFER std_logic;
+	\out_matrix[0][0][3]\ : BUFFER std_logic;
+	\out_matrix[0][0][4]\ : BUFFER std_logic;
+	\out_matrix[0][0][5]\ : BUFFER std_logic;
+	\out_matrix[0][0][6]\ : BUFFER std_logic;
+	\out_matrix[0][0][7]\ : BUFFER std_logic;
+	\out_matrix[0][0][8]\ : BUFFER std_logic;
+	\out_matrix[0][0][9]\ : BUFFER std_logic;
+	\out_matrix[0][0][10]\ : BUFFER std_logic;
+	\out_matrix[0][0][11]\ : BUFFER std_logic;
+	\out_matrix[0][0][12]\ : BUFFER std_logic;
+	\out_matrix[0][0][13]\ : BUFFER std_logic;
+	\out_matrix[0][0][14]\ : BUFFER std_logic;
+	\out_matrix[0][0][15]\ : BUFFER std_logic;
 	\in_matrix2[1][1][0]\ : IN std_logic;
 	\in_matrix2[1][1][1]\ : IN std_logic;
 	\in_matrix2[1][1][2]\ : IN std_logic;
@@ -2420,7 +2420,7 @@ PORT MAP (
 	i => \ww_in_matrix1[1][0][7]\,
 	o => \in_matrix1[1][0][7]~input_o\);
 
--- Location: DSP_X20_Y4_N0
+-- Location: DSP_X32_Y4_N0
 \Add3~8\ : cyclonev_mac
 -- pragma translate_off
 GENERIC MAP (
@@ -2663,7 +2663,7 @@ PORT MAP (
 	i => \ww_in_matrix2[0][0][7]\,
 	o => \in_matrix2[0][0][7]~input_o\);
 
--- Location: DSP_X32_Y4_N0
+-- Location: DSP_X32_Y2_N0
 \Add2~8\ : cyclonev_mac
 -- pragma translate_off
 GENERIC MAP (
@@ -2906,7 +2906,7 @@ PORT MAP (
 	i => \ww_in_matrix1[0][0][7]\,
 	o => \in_matrix1[0][0][7]~input_o\);
 
--- Location: DSP_X20_Y2_N0
+-- Location: DSP_X20_Y4_N0
 \Add1~8\ : cyclonev_mac
 -- pragma translate_off
 GENERIC MAP (
@@ -2973,7 +2973,7 @@ PORT MAP (
 	by => \Add1~8_BY_bus\,
 	resulta => \Add1~8_RESULTA_bus\);
 
--- Location: DSP_X32_Y2_N0
+-- Location: DSP_X20_Y2_N0
 \Add0~8\ : cyclonev_mac
 -- pragma translate_off
 GENERIC MAP (
@@ -3040,7 +3040,7 @@ PORT MAP (
 	by => \Add0~8_BY_bus\,
 	resulta => \Add0~8_RESULTA_bus\);
 
--- Location: LABCELL_X13_Y22_N3
+-- Location: MLABCELL_X15_Y35_N0
 \~QUARTUS_CREATED_GND~I\ : cyclonev_lcell_comb
 -- Equation(s):
 
