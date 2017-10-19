@@ -1,0 +1,1126 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do ECA1_Assignment1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:10:52 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 11:10:54 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:10:54 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ECA1_Assignment1
+# -- Compiling architecture tb_ECA1_Assignment1_arch of tb_ECA1_Assignment1
+# End time: 11:10:55 on Oct 19,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_ECA1_Assignment1
+# vsim -gui "+altera" -l msim_transcript -do "ECA1_Assignment1_run_msim_rtl_vhdl.do" 
+# Start time: 11:10:55 on Oct 19,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+dataset reload -f
+# Dataset not found: 
+dataset reload -f
+# Dataset not found: 
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.eca1_assignment1(behavioral)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/eca1_assignment1/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /eca1_assignment1/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/eca1_assignment1/result(0)(0)" has an existing driver:
+#          Process: /eca1_assignment1/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /eca1_assignment1
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:21:53 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ECA1_Assignment1
+# -- Compiling architecture tb_ECA1_Assignment1_arch of tb_ECA1_Assignment1
+# End time: 11:21:55 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:22:02 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 11:22:03 on Oct 19,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:22:32 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ECA1_Assignment1
+# -- Compiling architecture tb_ECA1_Assignment1_arch of tb_ECA1_Assignment1
+# End time: 11:22:34 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.eca1_assignment1(behavioral)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/eca1_assignment1/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /eca1_assignment1/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/eca1_assignment1/result(0)(0)" has an existing driver:
+#          Process: /eca1_assignment1/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /eca1_assignment1
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.eca1_assignment1(behavioral)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/eca1_assignment1/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /eca1_assignment1/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/eca1_assignment1/result(0)(0)" has an existing driver:
+#          Process: /eca1_assignment1/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /eca1_assignment1
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.eca1_assignment1(behavioral)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/eca1_assignment1/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /eca1_assignment1/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/eca1_assignment1/result(0)(0)" has an existing driver:
+#          Process: /eca1_assignment1/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /eca1_assignment1
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.eca1_assignment1(behavioral)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/eca1_assignment1/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /eca1_assignment1/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/eca1_assignment1/result(0)(0)" has an existing driver:
+#          Process: /eca1_assignment1/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /eca1_assignment1
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.eca1_assignment1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/eca1_assignment1/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /eca1_assignment1/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/eca1_assignment1/result(0)(0)" has an existing driver:
+#          Process: /eca1_assignment1/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /eca1_assignment1
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+# ** Failure: (vsim-3344) Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has multiple drivers but is not a resolved signal.
+#    Time: 0 ps  Iteration: 0  Process: /tb_eca1_assignment1/DUT/processOne File: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# ** Note: Signal "/tb_eca1_assignment1/DUT/result(0)(0)" has an existing driver:
+#          Process: /tb_eca1_assignment1/DUT/line__55
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1/DUT
+# Fatal error in file C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+#  while elaborating region: /tb_eca1_assignment1
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ECA1_Assignment1_run_msim_rtl_vhdl.do PAUSED at line 12
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:27:11 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 11:27:12 on Oct 19,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:27:15 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ECA1_Assignment1
+# -- Compiling architecture tb_ECA1_Assignment1_arch of tb_ECA1_Assignment1
+# End time: 11:27:17 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+add wave -position end  sim:/tb_eca1_assignment1/clk
+run -all
+add wave -position end  sim:/tb_eca1_assignment1/outputDataReady
+# WARNING: No extended dataflow license exists
+add wave -r /*
+# Break key hit
+restart -f
+run -all
+run -all
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+restart -f
+run -all
+run -all
+restart -f
+run -all
+run -continue
+run -continue
+restart -f
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run
+run
+run
+run
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:38:53 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 11:38:55 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:38:59 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ECA1_Assignment1
+# -- Compiling architecture tb_ECA1_Assignment1_arch of tb_ECA1_Assignment1
+# End time: 11:39:00 on Oct 19,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+run
+run
+run
+run
+run
+run
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:50:07 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 11:50:08 on Oct 19,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:50:09 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity tb_ECA1_Assignment1
+# -- Compiling architecture tb_ECA1_Assignment1_arch of tb_ECA1_Assignment1
+# End time: 11:50:11 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.eca1_assignment1(behavioral)
+run
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:54:25 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 11:54:27 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.eca1_assignment1(behavioral)
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:58:28 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 11:58:30 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.eca1_assignment1(behavioral)
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:59:45 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 11:59:46 on Oct 19,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.eca1_assignment1(behavioral)
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:03:34 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 12:03:36 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.eca1_assignment1(behavioral)
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:35:55 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 12:35:56 on Oct 19,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.eca1_assignment1(behavioral)
+run
+restart -f
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:37:27 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# ** Error: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd(77): Target of signal assignment is not a signal.
+# ** Error: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd(391): VHDL Compiler exiting
+# End time: 12:37:27 on Oct 19,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:38:32 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# ** Error: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd(77): Target of signal assignment is not a signal.
+# ** Error: C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd(391): VHDL Compiler exiting
+# End time: 12:38:32 on Oct 19,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
+restart -f
+run
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:39:02 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 12:39:04 on Oct 19,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vcom -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:39:31 on Oct 19,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ECA1_Assignment1
+# -- Compiling architecture Behavioral of ECA1_Assignment1
+# End time: 12:39:32 on Oct 19,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.eca1_assignment1(behavioral)
+restart
+run
+# End time: 12:46:25 on Oct 19,2017, Elapsed time: 1:35:30
+# Errors: 48, Warnings: 1

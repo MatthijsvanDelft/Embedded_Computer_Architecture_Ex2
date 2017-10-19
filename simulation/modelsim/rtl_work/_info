@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim
+Eeca1_assignment1
+Z1 w1508409534
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+Z6 FC:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd
+l0
+L5
+VQW8b0N5K`Unj6N@A4V2jE2
+!s100 5UiDc`j8g7hmGLnZbM<h83
+Z7 OV;C;10.3d;59
+31
+Z8 !s110 1508409571
+!i10b 1
+Z9 !s108 1508409571.399000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd|
+Z11 !s107 C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 16 eca1_assignment1 0 22 QW8b0N5K`Unj6N@A4V2jE2
+l22
+L12
+Z15 V2<OHT;TVBmU_1G8h<^cPg0
+Z16 !s100 IaJzaGY`][^VlE3jJj:`N0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_eca1_assignment1
+Z17 w1508404348
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z20 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R4
+R3
+R2
+R0
+Z21 8C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+Z22 FC:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd
+l0
+L8
+VQW6_zkJmYJgHjVA[>;S8:3
+!s100 =AM7DH0XGcPzmU]eCD?@N2
+R7
+31
+Z23 !s110 1508406610
+!i10b 1
+Z24 !s108 1508406610.044000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd|
+Z26 !s107 C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/simulation/modelsim/tb_ECA1_Assignment1.vhd|
+!i113 1
+R12
+R13
+Atb_eca1_assignment1_arch
+R18
+R19
+R20
+R4
+R3
+R2
+DEx4 work 19 tb_eca1_assignment1 0 22 QW6_zkJmYJgHjVA[>;S8:3
+l19
+L11
+V[2PPNB@ccHZVQ0_K]?P^^3
+!s100 Y5d4W`WQ_N[F;2NJPRnU?1
+R7
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R12
+R13

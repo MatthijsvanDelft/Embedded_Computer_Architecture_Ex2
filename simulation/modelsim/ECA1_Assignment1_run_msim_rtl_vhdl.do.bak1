@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/Matthijs/Documents/UTwente/Quater_2(2017-1A)/Embedded_Computer_Architecture/Embedded_Computer_Architecture_Ex2_GIT/ECA1_Assignment1.vhd}
+
