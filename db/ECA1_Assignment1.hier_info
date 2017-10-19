@@ -1,5 +1,5 @@
 |ECA1_Assignment1
 clk => ~NO_FANOUT~
-outputDataReady <= <VCC>
+outputDataReady <= comb.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -1,0 +1,28 @@
+onerror {resume}
+::add watch /tb_eca1_assignment1/clk -noglob -x 1304.0 -y 0.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/clk -noglob -x 1304.0 -y 82.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/outputDataReady -noglob -x 0.0 -y 190.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/matrix1 -noglob -x 1304.0 -y 246.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/outputDataReady -noglob -x 1304.0 -y 164.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/clk -noglob -x 0.0 -y 95.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/matrix2 -noglob -x 1619.0 -y 0.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/result -noglob -x 315.0 -y 292.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/result -noglob -x 1619.0 -y 292.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/outputDataReady -noglob -x 292.0 -y 0.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/MAX_ELEM -noglob -x 1883.0 -y 0.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/matrix1 -noglob -x 0.0 -y 341.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/MAX_ROWS -noglob -x 1883.0 -y 82.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/matrix2 -noglob -x 315.0 -y 95.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/MAX_COLS -noglob -x 1883.0 -y 164.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/clk -noglob -x 0.0 -y 177.0 -radix default -radixenum default
+::add watch sim:/tb_eca1_assignment1/clk -noglob -x 1883.0 -y 246.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/procCycleArray -noglob -x 579.0 -y 95.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/MAX_ELEM -noglob -x 579.0 -y 82.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/MAX_COLS -noglob -x 0.0 -y 0.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/DUT/MAX_ROWS -noglob -x 579.0 -y 246.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/outputDataReady -noglob -x 0.0 -y 82.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/clk -noglob -x 0.0 -y 328.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/outputDataReady -noglob -x 606.0 -y 0.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/clk -noglob -x 606.0 -y 328.0 -radix default -radixenum default
+::add watch /tb_eca1_assignment1/outputDataReady -noglob -x 606.0 -y 423.0 -radix default -radixenum default
+
