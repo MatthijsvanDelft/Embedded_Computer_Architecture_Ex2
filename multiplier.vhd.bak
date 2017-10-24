@@ -1,0 +1,9 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;	
+ENTITY Multiplier IS
+  PORT (
+		ROW  			: IN 		INTEGER;
+		COLLUM		: IN 		INTEGER
+
+);		
+END ENTITY Multiplier;

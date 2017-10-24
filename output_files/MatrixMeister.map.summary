@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Oct 23 15:57:12 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : MatrixMeister
+Top-level Entity Name : Overview
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 67
+Total pins : 197
+Total virtual pins : 0
+Total block memory bits : 57,344
+Total DSP Blocks : 28
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

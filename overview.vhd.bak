@@ -1,0 +1,14 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;	
+ENTITY Overview IS
+  PORT (
+		clk  					: IN 		STD_LOGIC;
+		dataToProcessor 	: OUT 	STD_LOGIC_VECTOR(31 downto 0);
+		wren					: OUT		STD_LOGIC;
+		dataPort				: OUT 	STD_LOGIC_VECTOR	(31 downto 0);
+		AddressX				: OUT 	STD_LOGIC_VECTOR (7 DOWNTO 0);
+		AddressY				: OUT 	STD_LOGIC_VECTOR (7 DOWNTO 0);
+		X						: OUT 	STD_LOGIC_VECTOR (7 DOWNTO 0);
+		Y						: OUT 	STD_LOGIC_VECTOR (7 DOWNTO 0)
+);		
+END ENTITY Overview;

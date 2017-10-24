@@ -1,0 +1,9 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;	
+ENTITY Adder IS
+  PORT (
+		ROW  			: IN 		INTEGER;
+		COLLUM		: IN 		INTEGER
+
+);		
+END ENTITY Adder;

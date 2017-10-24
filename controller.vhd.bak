@@ -1,0 +1,10 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;	
+ENTITY Controller IS
+  PORT (
+		clk			: IN 		STD_LOGIC;
+		ROW  			: OUT		INTEGER;
+		COLLUM		: OUT		INTEGER
+
+);		
+END ENTITY Controller;
