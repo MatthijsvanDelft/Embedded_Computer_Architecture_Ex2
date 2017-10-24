@@ -1,0 +1,344 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/simulation/modelsim
+Eadder
+Z1 w1508768283
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/adder.vhd
+Z6 FD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/adder.vhd
+l0
+L4
+VMI]]f<TKadJG`AKiclJ_g0
+!s100 47Nmhc?2zh_^;fh92RL5K3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1508768617
+!i10b 1
+Z9 !s108 1508768617.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/adder.vhd|
+Z11 !s107 D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/adder.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 MI]]f<TKadJG`AKiclJ_g0
+l44
+L16
+V03@jdoJW^JDT[NP[c9K3a0
+!s100 CW[RCYN2`b^JA`m`B7OCJ1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Econtroller
+Z14 w1508768074
+R2
+R3
+R4
+R0
+Z15 8D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/controller.vhd
+Z16 FD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/controller.vhd
+l0
+L4
+V0<^IcOP?SbL6M;z;d:ngj1
+!s100 Mk<Pz6]VgSEE758_WABS13
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/controller.vhd|
+Z18 !s107 D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/controller.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 10 controller 0 22 0<^IcOP?SbL6M;z;d:ngj1
+l25
+L15
+VMPfR]aLC2CKL:PLbBlOja3
+!s100 ]co<9la`5SQ3Hb<<NUAI83
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Emultiplier
+Z19 w1508768249
+R2
+R3
+R4
+R0
+Z20 8D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/multiplier.vhd
+Z21 FD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/multiplier.vhd
+l0
+L4
+V7F4M=7b3@hNN`;<?[e1E[2
+!s100 kQo_`T4VF4Bg:ZlFYmcZ52
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/multiplier.vhd|
+Z23 !s107 D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/multiplier.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 10 multiplier 0 22 7F4M=7b3@hNN`;<?[e1E[2
+l104
+L15
+VlA?<VO]jWg@`X5m0lUMi70
+!s100 GF3Vgh9:[aH=8B8A3SKJ22
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Eoverview
+Z24 w1508768411
+R2
+R3
+R4
+R0
+Z25 8D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/overview.vhd
+Z26 FD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/overview.vhd
+l0
+L4
+V?J6R;:b8NIl71om7C^0n;3
+!s100 F>E0aV6>mN_kA>b=dLkS:0
+R7
+31
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-93|-work|work|D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/overview.vhd|
+Z28 !s107 D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/overview.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 8 overview 0 22 ?J6R;:b8NIl71om7C^0n;3
+l79
+L21
+VgeRH_nbUl<abn5;?CB<5i3
+!s100 R>K?mVOO`o]FgY5EKJEC62
+R7
+31
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Eramresult
+Z29 w1508602241
+Z30 DPx9 altera_mf 20 altera_mf_components 0 22 :YRc5<ojH^WgP]^Vezi9c1
+R3
+R4
+R0
+Z31 8D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamResult.vhd
+Z32 FD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamResult.vhd
+l0
+L43
+V9WfeU6o?GTHzSgeUCbal60
+!s100 b1L^BzWM:?<ALGB?U@h8n2
+R7
+31
+R8
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|-93|-work|work|D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamResult.vhd|
+Z34 !s107 D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamResult.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R3
+R4
+DEx4 work 9 ramresult 0 22 9WfeU6o?GTHzSgeUCbal60
+l59
+L55
+VRNUR3^38VWMVRE9XB3EeM0
+!s100 ^Z>NaKGjcG_2@OKd@mIPO0
+R7
+31
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13
+Eramx
+Z35 w1508438115
+R30
+R3
+R4
+R0
+Z36 8D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamX.vhd
+Z37 FD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamX.vhd
+l0
+L43
+VmK[b7__C3:FmE^Rc;W@VQ1
+!s100 B2@z;:cT2AT`mUP;_aDUF3
+R7
+31
+R8
+!i10b 1
+R9
+Z38 !s90 -reportprogress|300|-93|-work|work|D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamX.vhd|
+Z39 !s107 D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamX.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R3
+R4
+DEx4 work 4 ramx 0 22 mK[b7__C3:FmE^Rc;W@VQ1
+l59
+L55
+V7BM]RomT99n`BA47Q?6]=0
+!s100 i<]Ten9B27j5@En0gB8<l3
+R7
+31
+R8
+!i10b 1
+R9
+R38
+R39
+!i113 1
+R12
+R13
+Eramy
+Z40 w1508438142
+R30
+R3
+R4
+R0
+Z41 8D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamY.vhd
+Z42 FD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamY.vhd
+l0
+L43
+VKGRo4OV;cFDIYD0nPa7>92
+!s100 chdn4N<=;`^YG@B01L9lT0
+R7
+31
+R8
+!i10b 1
+R9
+Z43 !s90 -reportprogress|300|-93|-work|work|D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamY.vhd|
+Z44 !s107 D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamY.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R3
+R4
+DEx4 work 4 ramy 0 22 KGRo4OV;cFDIYD0nPa7>92
+l59
+L55
+V[B<5_5C0iQXoTF3SmXKc[1
+!s100 b7TG=51RcPBV5GXmI=bFB3
+R7
+31
+R8
+!i10b 1
+R9
+R43
+R44
+!i113 1
+R12
+R13
+Etb_eca1_assignment1
+Z45 w1508768604
+Z46 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z47 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z48 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R4
+R3
+R2
+R0
+Z49 8D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/tb_ECA1_Assignment1.vhd
+Z50 FD:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/tb_ECA1_Assignment1.vhd
+l0
+L8
+VLJ<AR@icK35kcMgOiQM;?1
+!s100 =AM7DH0XGcPzmU]eCD?@N2
+R7
+31
+R8
+!i10b 1
+R9
+Z51 !s90 -reportprogress|300|-93|-work|work|D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/tb_ECA1_Assignment1.vhd|
+Z52 !s107 D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/tb_ECA1_Assignment1.vhd|
+!i113 1
+R12
+R13
+Atb_eca1_assignment1_arch
+R46
+R47
+R48
+R4
+R3
+R2
+DEx4 work 19 tb_eca1_assignment1 0 22 LJ<AR@icK35kcMgOiQM;?1
+l42
+L11
+VUWAmh:3^`KO7h]RJ6O2eN0
+!s100 Ra_2W0VXKl:ENa?BZiW;I3
+R7
+31
+R8
+!i10b 1
+R9
+R51
+R52
+!i113 1
+R12
+R13
