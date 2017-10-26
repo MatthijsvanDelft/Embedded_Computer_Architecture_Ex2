@@ -3,11 +3,11 @@ USE IEEE.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 ENTITY Controller IS
   PORT (
-		clk			: IN 		STD_LOGIC;
-		reset			: IN 		STD_LOGIC;
-		ROW  			: OUT		INTEGER;
-		COLLUMN		: OUT		INTEGER;
-		LASTADDRESS	: OUT		STD_LOGIC := '0'
+		clk				: IN 		STD_LOGIC;
+		reset				: IN 		STD_LOGIC;
+		ROWADDRESS		: OUT		INTEGER;
+		COLLUMNADDRESS	: OUT		INTEGER;
+		LASTADDRESS		: OUT		STD_LOGIC := '0'
 
 );		
 END ENTITY Controller;
@@ -48,8 +48,8 @@ BEGIN
 			end if;
 		end if;
 
-		COLLUMN <= collumntemp;
-		ROW <= rowtemp;
+		COLLUMNADDRESS <= collumntemp;
+		ROWADDRESS <= rowtemp;
 			
 		end process;	
 	

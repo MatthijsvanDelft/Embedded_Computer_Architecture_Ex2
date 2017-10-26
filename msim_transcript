@@ -1,0 +1,59 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# MatrixMeister_run_msim_rtl_vhdl.do
+# invalid command name "MatrixMeister_run_msim_rtl_vhdl.do"
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch) 
+# Start time: 10:31:14 on Oct 26,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.overview(structure)
+# ** Error: (vsim-3732) //Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/tb_ECA1_Assignment1.vhd(57): No default binding for component instance 'DUT'.
+#    The following component ports are not on the entity:
+#           Finalmulti
+#           FinalAdd
+#           LastAddress
+#           INDEXDEBUG
+#           COLLUMNDEBUG
+#           ROWDEBUG
+#           MULTIPLYDEBUG
+#           ADDERDEBUG
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT File: //Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/overview.vhd
+# ** Warning: (vsim-3473) Component instance "calculate : Calculator" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT File: //Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/overview.vhd
+# Error loading design
+# End time: 10:31:15 on Oct 26,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# vsim work.tb_eca1_assignment1(tb_eca1_assignment1_arch) 
+# Start time: 10:31:25 on Oct 26,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_eca1_assignment1(tb_eca1_assignment1_arch)
+# Loading work.overview(structure)
+# ** Error: (vsim-3732) //Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/tb_ECA1_Assignment1.vhd(57): No default binding for component instance 'DUT'.
+#    The following component ports are not on the entity:
+#           Finalmulti
+#           FinalAdd
+#           LastAddress
+#           INDEXDEBUG
+#           COLLUMNDEBUG
+#           ROWDEBUG
+#           MULTIPLYDEBUG
+#           ADDERDEBUG
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT File: //Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/overview.vhd
+# ** Warning: (vsim-3473) Component instance "calculate : Calculator" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_eca1_assignment1/DUT File: //Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/overview.vhd
+# Error loading design
+# End time: 10:31:25 on Oct 26,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1

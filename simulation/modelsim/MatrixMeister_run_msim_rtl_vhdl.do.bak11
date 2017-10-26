@@ -5,15 +5,10 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/overview.vhd}
-vcom -93 -work work {D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/adder.vhd}
-vcom -93 -work work {D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/multiplier.vhd}
-vcom -93 -work work {D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamX.vhd}
-vcom -93 -work work {D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamY.vhd}
-vcom -93 -work work {D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/controller.vhd}
-vcom -93 -work work {D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/RamResult.vhd}
+vcom -93 -work work {//Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/overview.vhd}
+vcom -93 -work work {//Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/RAM.vhd}
 
-vcom -93 -work work {D:/Stack/Documenten/UTwente-Opleiding/ECA1/matrixmeister/tb_ECA1_Assignment1.vhd}
+vcom -93 -work work {/Documents/GitHub/Embedded_Computer_Architecture_Ex2/tb_ECA1_Assignment1.vhd}
 
 vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_ECA1_Assignment1
 
