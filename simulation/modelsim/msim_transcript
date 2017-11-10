@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {//Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/overview.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:06:31 on Oct 26,2017
+# Start time: 17:06:42 on Nov 06,2017
 # vcom -reportprogress 300 -93 -work work //Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/overview.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -20,11 +20,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Overview
 # -- Compiling architecture structure of Overview
-# End time: 16:06:31 on Oct 26,2017, Elapsed time: 0:00:00
+# End time: 17:06:42 on Nov 06,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {//Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/RAM.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:06:31 on Oct 26,2017
+# Start time: 17:06:42 on Nov 06,2017
 # vcom -reportprogress 300 -93 -work work //Mac/Home/Documents/GitHub/Embedded_Computer_Architecture_Ex2/RAM.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -32,12 +32,12 @@
 # -- Loading package altera_mf_components
 # -- Compiling entity RAM
 # -- Compiling architecture SYN of ram
-# End time: 16:06:32 on Oct 26,2017, Elapsed time: 0:00:01
+# End time: 17:06:43 on Nov 06,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/Documents/GitHub/Embedded_Computer_Architecture_Ex2/tb_ECA1_Assignment1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:06:32 on Oct 26,2017
+# Start time: 17:06:43 on Nov 06,2017
 # vcom -reportprogress 300 -93 -work work /Documents/GitHub/Embedded_Computer_Architecture_Ex2/tb_ECA1_Assignment1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -48,12 +48,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity tb_ECA1_Assignment1
 # -- Compiling architecture tb_ECA1_Assignment1_arch of tb_ECA1_Assignment1
-# End time: 16:06:32 on Oct 26,2017, Elapsed time: 0:00:00
+# End time: 17:06:43 on Nov 06,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_ECA1_Assignment1
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" tb_ECA1_Assignment1 
-# Start time: 16:06:32 on Oct 26,2017
+# Start time: 17:06:43 on Nov 06,2017
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -88,102 +88,268 @@
 # ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 #    Time: 20 ns  Iteration: 2  Instance: /tb_eca1_assignment1/DUT/ramr/altsyncram_component
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 116260 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 116940 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 117620 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 118300 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 118980 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 119660 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 120340 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 121020 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 121700 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 122380 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
 #    Time: 123060 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 123780 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 123740 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 124500 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 124420 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 125220 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 125100 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 125940 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 125780 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 126660 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 126460 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 127380 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 127140 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 128100 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 127820 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 128820 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 128500 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 129540 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 129180 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 130260 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 129860 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 130980 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 130540 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 131700 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 131220 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 132420 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 131900 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 133140 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 132580 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 133860 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 133260 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 134580 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 133940 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 134620 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
 #    Time: 135300 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 136020 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 135980 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 136740 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 136660 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 137460 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 137340 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 138180 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 138020 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 138900 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 138700 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 139620 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 139380 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 140340 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 140060 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 141060 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 140740 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 141780 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 141420 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 142500 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 142100 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 143220 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 142780 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 143940 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 143460 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 144660 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 144140 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 145380 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 144820 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 146100 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 145500 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 146820 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 146180 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 146860 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
 #    Time: 147540 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 148260 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 148220 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 148980 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 148900 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 149700 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 149580 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 150420 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 150260 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 151140 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 150940 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 151860 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 151620 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 152580 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 152300 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 153300 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 152980 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 154020 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 153660 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 154740 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 154340 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 155460 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 155020 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 156180 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 155700 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 156900 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+#    Time: 156380 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
 # ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-#    Time: 157620 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
-# End time: 16:08:53 on Oct 26,2017, Elapsed time: 0:02:21
-# Errors: 0, Warnings: 55
+#    Time: 157060 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 157740 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+add wave -position end  sim:/tb_eca1_assignment1/DUT/AddressSig
+add wave -position end  sim:/tb_eca1_assignment1/DUT/SignalValue
+add wave -position end  sim:/tb_eca1_assignment1/DUT/ReturnValue
+restart -f
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 2  Instance: /tb_eca1_assignment1/DUT/ramr/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 2  Instance: /tb_eca1_assignment1/DUT/ramr/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 2  Instance: /tb_eca1_assignment1/DUT/ramr/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 2  Instance: /tb_eca1_assignment1/DUT/ramr/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 2  Instance: /tb_eca1_assignment1/DUT/ramr/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 2  Instance: /tb_eca1_assignment1/DUT/ramr/altsyncram_component
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 116260 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 116940 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 117620 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 118300 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 118980 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 119660 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 120340 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 121020 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 121700 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 122380 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 123060 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 123740 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 124420 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 125100 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 125780 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 126460 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 127140 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 127820 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 128500 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 129180 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 129860 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 130540 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 131220 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 131900 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 132580 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 133260 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 133940 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 134620 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 135300 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 135980 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 136660 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 137340 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 138020 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 138700 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 139380 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 140060 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 140740 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 141420 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 142100 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 142780 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 143460 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 144140 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 144820 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 145500 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 146180 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 146860 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 147540 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 148220 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 148900 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 149580 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 150260 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 150940 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 151620 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 152300 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 152980 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 153660 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 154340 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 155020 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 155700 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 156380 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 157060 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 157740 ns  Iteration: 1  Instance: /tb_eca1_assignment1/DUT

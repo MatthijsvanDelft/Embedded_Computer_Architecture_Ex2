@@ -14,22 +14,22 @@ ARCHITECTURE tb_ECA1_Assignment1_arch OF tb_ECA1_Assignment1 IS
     SIGNAL clk              : STD_LOGIC  ; 
     SIGNAL READYsignal      : STD_LOGIC;    
     SIGNAL RESETinput           : STD_LOGIC := '0';
-    SIGNAL debug : STD_LOGIC_VECTOR(31 DOWNTO 0);
-    SIGNAL result : STD_LOGIC_VECTOR(31 DOWNTO 0);
-    SIGNAL I : integer;
-    SIGNAL J : integer;
-    SIGNAL K : integer;
+    --SIGNAL debug : STD_LOGIC_VECTOR(31 DOWNTO 0);
+    --SIGNAL result : STD_LOGIC_VECTOR(31 DOWNTO 0);
+    --SIGNAL I : integer;
+    --SIGNAL J : integer;
+    --SIGNAL K : integer;
     
   COMPONENT Overview IS  
  PORT (
     clk           : IN    STD_LOGIC;
     reset         : IN    STD_LOGIC;
-    READY         : OUT   STD_LOGIC := '0';
-    DEBUGsignal     : out STD_LOGIC_VECTOR(31 DOWNTO 0);
-    DEBUGresult     : out STD_LOGIC_VECTOR(31 DOWNTO 0);
-    DEBUGI        : out integer;
-    DEBUGJ        : out integer;
-    DEBUGK        : out integer
+    READY         : OUT   STD_LOGIC := '0'
+    --DEBUGsignal     : out STD_LOGIC_VECTOR(31 DOWNTO 0);
+    --DEBUGresult     : out STD_LOGIC_VECTOR(31 DOWNTO 0);
+    --DEBUGI        : out integer;
+    --DEBUGJ        : out integer;
+    --DEBUGK        : out integer
     );      						
   END COMPONENT ; 
 BEGIN
@@ -37,12 +37,12 @@ BEGIN
     PORT MAP ( 
         clk   => clk,
         reset => RESETinput,
-        READY => READYsignal,
-        DEBUGsignal => debug,
-        DEBUGresult => result,
-        DEBUGI    => I,
-        DEBUGJ    => J,
-        DEBUGK    => K
+        READY => READYsignal
+        --DEBUGsignal => debug,
+        --DEBUGresult => result,
+        --DEBUGI    => I,
+        --DEBUGJ    => J,
+        --DEBUGK    => K
     ); 
 
 

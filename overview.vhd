@@ -80,7 +80,7 @@ ramr : RAM PORT MAP (AddressSig, clk, ReturnValue, WriteEnable, SignalValue);
 				if (matrixPointer = '0') then	--Y address updaten, X value verkregen.
 					if (J>=1) then
 						if (delay = 1) then
-							AddressSig <= std_logic_vector(to_unsigned(rowtemp * 13 + columntemp + BASE_R,9));	--Y address maken.
+							AddressSig <= std_logic_vector(to_unsigned(rowtemp * 13 + columntemp + BASE_R,9));	--R address maken.
 							WriteEnable <= '1';
 							addValueX := SignalValue;
 							MultiResult := MultiResult + (to_integer(unsigned(addValueX))+to_integer(unsigned(addValueY)));
@@ -95,7 +95,7 @@ ramr : RAM PORT MAP (AddressSig, clk, ReturnValue, WriteEnable, SignalValue);
 					end if;
 					matrixPointer := not(matrixPointer);
 				else
-					AddressSig <= std_logic_vector(to_unsigned(rowtemp * 13 + columntemp ,9)); --Xaddress
+					AddressSig <= std_logic_vector(to_unsigned(rowtemp * 13 + columntemp ,9)); --X address
 					addValueY := SignalValue;
 					J <= J + 1;
 					matrixPointer := not(matrixPointer);
@@ -110,7 +110,7 @@ ramr : RAM PORT MAP (AddressSig, clk, ReturnValue, WriteEnable, SignalValue);
 				--ReturnValue <= (others => '0');
 				AddressSig <= std_logic_vector(to_unsigned(511,9));
 				K <= K + 1;
-				if (K = 3) then
+				if (K = 1) then
 					multiplicationDone :='0';
 					columntemp := columntemp + 1;
 					I <= 0;

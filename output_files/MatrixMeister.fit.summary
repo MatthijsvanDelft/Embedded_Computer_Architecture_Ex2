@@ -1,17 +1,17 @@
-Fitter Status : Successful - Mon Oct 23 15:00:41 2017
+Fitter Status : Successful - Mon Nov 06 15:27:27 2017
 Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 Revision Name : MatrixMeister
 Top-level Entity Name : Overview
 Family : Cyclone V
 Device : 5CGXFC7C7F23C8
 Timing Models : Final
-Logic utilization (in ALMs) : 209 / 56,480 ( < 1 % )
-Total registers : 89
-Total pins : 194 / 268 ( 72 % )
+Logic utilization (in ALMs) : 175 / 56,480 ( < 1 % )
+Total registers : 243
+Total pins : 3 / 268 ( 1 % )
 Total virtual pins : 0
-Total block memory bits : 57,344 / 7,024,640 ( < 1 % )
-Total RAM Blocks : 27 / 686 ( 4 % )
-Total DSP Blocks : 28 / 156 ( 18 % )
+Total block memory bits : 0 / 7,024,640 ( 0 % )
+Total RAM Blocks : 0 / 686 ( 0 % )
+Total DSP Blocks : 0 / 156 ( 0 % )
 Total HSSI RX PCSs : 0 / 6 ( 0 % )
 Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
 Total HSSI TX PCSs : 0 / 6 ( 0 % )
